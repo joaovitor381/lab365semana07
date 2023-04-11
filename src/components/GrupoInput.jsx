@@ -16,7 +16,8 @@ function GrupoInput() {
         step="1"
         id="quantidade"
         className="form-control"
-        value={1}
+        value={quantidade}
+        onChange={handleQuantidadeChange}
         required
       />
     </div>
